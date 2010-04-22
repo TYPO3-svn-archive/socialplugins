@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Options</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.LikeButton.layout>
+						<TCEforms>
+							<label>Layout Style</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">Standard</numIndex>
+										<numIndex index="1">standard</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Button with Count</numIndex>
+										<numIndex index="1">button_count</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.LikeButton.layout>
+					<settings.LikeButton.showFaces>
+						<TCEforms>
+							<label>Show Faces</label>
+							<config>
+								<type>check</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">Show Faces</numIndex>
+									</numIndex>
+								</items>
+								<default>1</default>
+							</config>
+						</TCEforms>
+					</settings.LikeButton.showFaces>
+					<settings.LikeButton.width>
+						<TCEforms>
+							<label>Width</label>
+							<config>
+								<type>input</type>
+								<size>7</size>
+								<eval>int</eval>
+								<default>450</default>
+							</config>
+						</TCEforms>
+					</settings.LikeButton.width>
+					<settings.LikeButton.action>
+						<TCEforms>
+							<label>Verb to display</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">like</numIndex>
+										<numIndex index="1">like</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">recommend</numIndex>
+										<numIndex index="1">recommend</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.LikeButton.action>
+					<settings.LikeButton.font>
+						<TCEforms>
+							<label>Font</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0"> </numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Arial</numIndex>
+										<numIndex index="1">arial</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">Lucida Grande</numIndex>
+										<numIndex index="1">lucida grande</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">Segue UI</numIndex>
+										<numIndex index="1">segoe ui</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">Tahoma</numIndex>
+										<numIndex index="1">tahoma</numIndex>
+									</numIndex>
+									<numIndex index="5" type="array">
+										<numIndex index="0">Trebuchet MS</numIndex>
+										<numIndex index="1">trebuchet ms</numIndex>
+									</numIndex>
+									<numIndex index="6" type="array">
+										<numIndex index="0">Verdana</numIndex>
+										<numIndex index="1">verdana</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.LikeButton.font>
+					<settings.LikeButton.colorscheme>
+						<TCEforms>
+							<label>Color Scheme</label>
+							<config>
+								<type>select</type>
+								<size>1</size>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">Light</numIndex>
+										<numIndex index="1">light</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Dark</numIndex>
+										<numIndex index="1">dark</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.LikeButton.colorscheme>
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>

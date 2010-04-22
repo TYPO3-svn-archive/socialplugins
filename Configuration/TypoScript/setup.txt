@@ -1,0 +1,13 @@
+
+plugin.tx_socialplugins {
+
+	settings.LikeButton {
+		layout = standard
+		showFaces = 1
+		width = 450
+		action = like
+		font =
+		colorscheme = light
+	}
+
+}
