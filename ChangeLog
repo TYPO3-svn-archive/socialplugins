@@ -3,3 +3,4 @@
 	* Added support for the Like Button Social Plugin
 	* Fixed the style parameter in the Like Button View, the width settings was ignored
 	* Fixed issue #7414 Show Faces doesn't get honored
+	* Added a manual
