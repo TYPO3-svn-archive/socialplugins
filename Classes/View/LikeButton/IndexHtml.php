@@ -71,7 +71,8 @@ class Tx_Socialplugins_View_LikeButton_IndexHtml extends Tx_Extbase_MVC_View_Abs
 		$likeButton = '<iframe '
 			. 'src="'. $this->socialPluginUrl . '?' . $parameters . '" '
 			. 'scrolling="no" frameborder="0"  allowTransparency="true" '
-			. 'style="border:none; overflow:hidden; width:450px; height:px"'
+			. 'style="border:none; overflow:hidden; width:'
+			. intval($this->settings['width']) . 'px; height:px"'
 			. '></iframe>';
 
 		return $likeButton;
