@@ -62,7 +62,7 @@ class Tx_Socialplugins_View_LikeButton_IndexHtml extends Tx_Extbase_MVC_View_Abs
 
 		$parameters = 'href=' . urlencode(t3lib_div::getIndpEnv('TYPO3_REQUEST_URL'))
 			. '&amp;layout=' . $this->settings['layout']
-			. '&amp;show-faces=' . ($this->settings['showFaces'] ? 'true' : 'false')
+			. '&amp;show_faces=' . ($this->settings['showFaces'] ? 'true' : 'false')
 			. '&amp;width=' . intval($this->settings['width'])
 			. '&amp;action=' . $this->settings['action']
 			. $fontParameter
